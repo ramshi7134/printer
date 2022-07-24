@@ -1,8 +1,8 @@
 /*! Cannabify - Medical Marijuana Dispensary HTML Bootstrap Template v.1.6.0 - 2021-03-28 */
 body {
 	font-family: 'Poppins';
-	color: #747d88;
-	background-color: #1d1c22;
+	color: #ffffff;
+	background-color: #6d6d6d;
 	font-size: 1rem;
 	line-height: 1.7;
 	position: relative;
@@ -330,7 +330,7 @@ a:hover {
 	opacity: .7;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 	filter: alpha(opacity=70);
-	color: #ffb524
+	color: #093290
 }
 
 a.disabled {
@@ -488,7 +488,7 @@ a.disabled {
 }
 
 .text-light-green {
-	color: #98c869 !important
+	color: #bf1408 !important
 }
 
 .text-bittersweet {
@@ -527,7 +527,7 @@ a.disabled {
 .bg-body-main,
 .bg-back-image,
 .bg-orange {
-	background-color: #4c4b49 !important
+	background-color: #6d6d6d!important
 }
 
 .bg-theme-black {
@@ -547,7 +547,7 @@ a.disabled {
 }
 
 .bg-light-green {
-	background-color: #000000 !important
+	background-color: #6d6d6d !important
 }
 
 .bg-bittersweet {
@@ -1310,7 +1310,7 @@ a.disabled {
 	width: 100%;
 	height: 4px;
 	border-radius: 4px;
-	background-color: #ffb524
+	background-color: #bf1408
 }
 
 .separator-dashed {
@@ -5264,8 +5264,9 @@ header {
 	padding: 1.5rem;
 	margin: 0;
 	list-style: none;
-	background-color: #f5f6f9;
+	background-color:#f9f9f9;
 	border-radius: .75rem;
+	color: black;
 }
 
 .entity-details-list .entity-list-title {
