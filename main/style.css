@@ -1096,7 +1096,7 @@ address {
 }
 
 .bt-slidercontent .bt-description {
-    padding: 40px 0;
+    padding: 15px 0;
 }
 
 .bt-slidercontent .bt-description p {
@@ -4458,7 +4458,8 @@ body.bt-homevseven .bt-main {
 }
 
 .col-md-6.left-title {
-    margin-top: 100px;
+    margin-top: 42px;
+    /* margin-top: 100px; */
 }
 
 .col-md-6.right-img {
@@ -5528,13 +5529,39 @@ body.bt-homevseven .bt-main {
     /* flex-wrap: wrap; */
 }
 
-.col-md-6.right-img::before {
-    content: 'Printer';
+.mk-series::before {
+    content: 'Mk Series';
     color: white;
-    font-size: 16rem;
+    font-size: 9rem;
     position: absolute;
     /* left: 0; */
-    top: 24px;
+    top: 155px;
+    font-weight: 800;
+    opacity: 0.2;
+    right: 103px;
+    letter-spacing: 8px;
+}
+
+.letawin::before {
+    content: 'Letawin A2 Series';
+    color: white;
+    font-size: 7rem;
+    position: absolute;
+    /* left: 0; */
+    top: 128px;
+    font-weight: 800;
+    opacity: 0.2;
+    right: 26px;
+    letter-spacing: 2px;
+}
+
+.series::before {
+    content: 'PT-E8XX Series';
+    color: white;
+    font-size: 8rem;
+    position: absolute;
+    /* left: 0; */
+    top: 146px;
     font-weight: 800;
     opacity: 0.2;
     right: 0;
