@@ -799,6 +799,11 @@
     }
     .bt-slidercontent {
         bottom: 60px;
+        padding-top: 50%;
+    }
+    .bt-slidercontent.max {
+        bottom: 60px;
+        padding-top: 70%;
     }
     .bt-slidercontent h1 {
         font-size: 25px;
