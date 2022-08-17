@@ -52,7 +52,7 @@ body h5,
 body h6 {
     color: #000;
     margin: 0 0 8px;
-    font-weight: 400;
+    font-weight: 800;
     line-height: 1.5;
     font-style: normal;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -67,7 +67,7 @@ h2 {
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 35px;
 }
 
 h4 {
@@ -457,7 +457,8 @@ address {
 }
 
 .bt-btn {
-    color: #000;
+    color: #fff;
+    background-color: black;
     position: relative;
     text-align: center;
     display: inline-block;
@@ -547,7 +548,7 @@ address {
 }
 
 .bt-btn:hover span {
-    color: #000;
+    color: #fff;
 }
 
 .bt-btn:hover span:before {
@@ -1019,7 +1020,7 @@ address {
     float: left;
     height: 100%;
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 500;
     overflow: hidden;
     position: relative;
 }
@@ -5574,7 +5575,7 @@ img.slider1 {
 }
 
 .col-md-6.left-title::before {
-    content: 'P';
+    /* content: 'P'; */
     font-size: 67rem;
     color: #000000;
     opacity: 0.2;
