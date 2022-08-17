@@ -38,7 +38,7 @@ body {
 
 body {
     color: #808080;
-    background: #fff;
+    background: #000;
     overflow-x: hidden !important;
     overflow-y: visible !important;
     font: 400 18px/28px 'Montserrat', Arial, Helvetica, sans-serif;
@@ -174,7 +174,7 @@ input[type="color"],
     outline: none;
     height: 40px;
     color: #7f7f7f;
-    background: #fff;
+    background: #000;
     border-radius: 0;
     box-shadow: none;
     font-size: 14px;
@@ -457,7 +457,7 @@ address {
 }
 
 .bt-btn {
-    color: #fff;
+    color: #000;
     position: relative;
     text-align: center;
     display: inline-block;
@@ -474,7 +474,7 @@ address {
     width: 100%;
     height: 30%;
     position: absolute;
-    border: 1px solid #fff;
+    border: 1px solid #000;
 }
 
 .bt-btn:before {
@@ -531,7 +531,7 @@ address {
 }
 
 .bt-btn span:before {
-    background: #fff;
+    background: #000;
 }
 
 .bt-btn.bt-btnblack span:before {
@@ -539,7 +539,7 @@ address {
 }
 
 .bt-btn.bt-btnblack:hover span {
-    color: #fff;
+    color: #000;
 }
 
 .bt-btn.bt-btnblack:hover span:before {
@@ -711,7 +711,7 @@ address {
 .bt-breadcrumb {
     padding: 0;
     margin: 0;
-    color: #fff;
+    color: #000;
     float: right;
     list-style: none;
     text-align: right;
@@ -746,7 +746,7 @@ address {
 
 .bt-breadcrumb li a {
     display: block;
-    color: #fff;
+    color: #000;
 }
 
 .bt-shapreicons {
@@ -872,7 +872,7 @@ address {
 .bt-nav .bt-btntogglemenu {
     top: 30px;
     right: 30px;
-    color: #fff;
+    color: #000;
     width: 24px;
     display: block;
     font-size: 24px;
@@ -922,7 +922,7 @@ address {
 .bt-menu>li>span {
     top: 0;
     left: 0;
-    color: #fff;
+    color: #000;
     font-size: 13px;
     font-weight: 300;
     line-height: 28px;
@@ -930,7 +930,7 @@ address {
 }
 
 .bt-menu>li>a {
-    color: #fff;
+    color: #000;
     display: block;
     padding: 0 0 0 60px;
     position: relative;
@@ -942,7 +942,7 @@ address {
     width: 50px;
     height: 1px;
     content: '';
-    background: #fff;
+    background: #000;
     position: absolute;
 }
 
@@ -965,7 +965,7 @@ address {
 }
 
 .bt-navigation .bt-socialicons li a {
-    color: #fff;
+    color: #000;
     width: 30px;
     height: auto;
     font-size: 30px;
@@ -983,7 +983,7 @@ address {
 }
 
 .bt-navinfo {
-    color: #fff;
+    color: #000;
     width: 100%;
     float: left;
     list-style: none;
@@ -1000,7 +1000,7 @@ address {
 }
 
 .bt-navinfo li a {
-    color: #fff;
+    color: #000;
 }
 
 .bt-navinfo li address {
@@ -1014,7 +1014,7 @@ address {
 ==============================================*/
 
 .bt-homeslider {
-    color: #fff;
+    color: #000;
     width: 100%;
     float: left;
     height: 100%;
@@ -1074,7 +1074,7 @@ address {
 
 .bt-slidercontent h1 {
     margin: 0;
-    color: #fff;
+    color: #000;
     font-size: 64px;
     font-weight: 200;
     line-height: 64px;
@@ -1125,7 +1125,7 @@ address {
     line-height: 58px;
     border-radius: 0;
     transform: rotate(0);
-    border: 1px solid #fff;
+    border: 1px solid #000;
 }
 
 .pogoSlider--dirTopLeft .pogoSlider-dir-btn--prev,
@@ -1190,7 +1190,7 @@ address {
     content: '';
     width: 0;
     height: 100%;
-    background: #fff;
+    background: #000;
     position: absolute;
 }
 
@@ -1270,13 +1270,13 @@ address {
 }
 
 .pogoSlider-nav-btn--selected {
-    background: #fff;
+    background: #000;
 }
 
 .bt-slidescount {
     left: 8%;
     z-index: 1;
-    color: #fff;
+    color: #000;
     bottom: 20px;
     position: absolute;
 }
@@ -1300,7 +1300,7 @@ address {
 .bt-btnclosealbum {
     top: 0;
     left: 0;
-    color: #fff;
+    color: #000;
     width: 50px;
     height: 50px;
     display: block;
@@ -1312,7 +1312,7 @@ address {
 }
 
 .bt-btnclosealbum>i {
-    color: #fff;
+    color: #000;
     display: block;
     font-size: inherit;
     line-height: inherit;
@@ -1374,7 +1374,7 @@ body.bt-homevtwo.bt-fixed .bt-socialicons li a {
 }
 
 body.bt-homevtwo .bt-socialicons li a {
-    color: #fff;
+    color: #000;
 }
 
 body.bt-homevtwo.bt-fixed .bt-header {
@@ -1609,7 +1609,7 @@ body.bt-homevtwo .bt-header {
 }
 
 .bt-shareandlikes li a {
-    color: #fff;
+    color: #000;
     display: block;
 }
 
@@ -1673,7 +1673,7 @@ body.bt-homevtwo .bt-header {
 }
 
 .bt-btnboxloadmore .bt-btn:hover {
-    color: #fff;
+    color: #000;
 }
 
 .bt-btnboxloadmore .bt-btn {
@@ -1693,7 +1693,7 @@ body.bt-homevtwo .bt-header {
 .bt-newsletter {
     width: 100%;
     float: left;
-    color: #fff;
+    color: #000;
     padding: 70px;
     background: #000;
     margin: 0 0 120px;
@@ -1701,7 +1701,7 @@ body.bt-homevtwo .bt-header {
 
 .bt-newsletter h3 {
     margin: 0;
-    color: #fff;
+    color: #000;
     font-size: 32px;
     font-weight: 600;
     line-height: 33px;
@@ -1733,7 +1733,7 @@ body.bt-homevtwo .bt-header {
 
 .bt-formnewsletter .form-control {
     z-index: 1;
-    color: #fff;
+    color: #000;
     padding: 0;
     border: 0;
     height: 61px;
@@ -1742,23 +1742,23 @@ body.bt-homevtwo .bt-header {
     line-height: 61px;
     position: relative;
     background: transparent;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #000;
 }
 
 .bt-formnewsletter .form-control::-webkit-input-placeholder {
-    color: #fff;
+    color: #000;
 }
 
 .bt-formnewsletter .form-control::-moz-placeholder {
-    color: #fff;
+    color: #000;
 }
 
 .bt-formnewsletter .form-control:-ms-input-placeholder {
-    color: #fff;
+    color: #000;
 }
 
 .bt-formnewsletter .form-control:-moz-placeholder {
-    color: #fff;
+    color: #000;
 }
 
 .bt-formnewsletter .form-control:focus {
@@ -1831,7 +1831,7 @@ body.bt-homevtwo .bt-header {
     width: 260px;
     height: 260px;
     padding: 40px;
-    background: #fff;
+    background: #000;
     position: absolute;
     margin: -130px 0 0 -130px;
     -webkit-box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.30);
@@ -1972,7 +1972,7 @@ body.bt-homevthree .bt-wrapper {
     z-index: 4;
     width: 49.5%;
     float: right;
-    background: #fff;
+    background: #000;
     position: relative;
 }
 
@@ -1982,7 +1982,7 @@ body.bt-homevthree .bt-wrapper {
 }
 
 .bt-headervthree .bt-btntogglemenu {
-    color: #fff;
+    color: #000;
     float: left;
     margin: 12px 0;
     font-size: 12px;
@@ -1990,7 +1990,7 @@ body.bt-homevthree .bt-wrapper {
     line-height: 16px;
     padding: 0 0 4px;
     text-transform: uppercase;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #000;
 }
 
 .bt-headervthree .bt-logo {
@@ -2016,7 +2016,7 @@ body.bt-homevthree .bt-wrapper {
     height: 100%;
     padding: 70px;
     color: #6b6b6b;
-    background: #fff;
+    background: #000;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2107,7 +2107,7 @@ body.bt-homevthree .bt-main {
     z-index: 4;
     width: 94%;
     float: left;
-    background: #fff;
+    background: #000;
     position: relative;
     padding: 120px 0 0 50px;
 }
@@ -2169,7 +2169,7 @@ body.bt-homevthree .bt-main {
     visibility: hidden;
     border-radius: 60px;
     margin: -30px 0 0 -30px;
-    background: #fff url(images/icons/icon-03.png) no-repeat 50% 50%;
+    background: #000 url(images/icons/icon-03.png) no-repeat 50% 50%;
 }
 
 .bt-albumpost figure:hover .bt-btnviewimg {
@@ -2179,7 +2179,7 @@ body.bt-homevthree .bt-main {
 
 body.bt-homevthree .bt-footer {
     padding: 0 70px;
-    background: #fff;
+    background: #000;
 }
 
 body.bt-homevthree .bt-footerbar {
@@ -2242,7 +2242,7 @@ body.bt-homevfour .bt-homeslider {
 }
 
 .bt-headervfour ul li a {
-    color: #fff;
+    color: #000;
     padding: 0 7px;
     position: relative;
 }
@@ -2286,7 +2286,7 @@ body.bt-homevfour .bt-homeslider {
     z-index: 5;
     opacity: 0;
     width: 235px;
-    background: #fff;
+    background: #000;
     list-style: none;
     visibility: hidden;
     position: absolute;
@@ -2320,7 +2320,7 @@ body.bt-homevfour .bt-homeslider {
     left: 17px;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-bottom: 12px solid #fff;
+    border-bottom: 12px solid #000;
 }
 
 .bt-submenu li {
@@ -2360,7 +2360,7 @@ li.bt-hasdropdown:hover .bt-submenu {
 
 li.bt-hasdropdown .bt-submenu li.bt-active a,
 li.bt-hasdropdown .bt-submenu li a:hover {
-    color: #fff;
+    color: #000;
     background: #000;
 }
 
@@ -2417,7 +2417,7 @@ li.bt-hasdropdown .bt-submenu li a:hover {
     bottom: 0;
     width: 34%;
     line-height: 4px;
-    background: #fff;
+    background: #000;
     text-align: right;
     position: absolute;
     padding: 50px 0 204px;
@@ -2575,18 +2575,18 @@ li.bt-hasdropdown .bt-submenu li a:hover {
 }
 
 .bt-titleandinfo .bt-albumtitle h3 a {
-    color: #fff;
+    color: #000;
 }
 
 .bt-titleandinfo .bt-shareandlikes {
     padding: 0;
     width: auto;
     float: right;
-    color: #fff;
+    color: #000;
 }
 
 .bt-titleandinfo .bt-shareandlikes li a {
-    color: #fff;
+    color: #000;
 }
 
 .bt-photogallery .bt-btnboxloadmore {
@@ -2670,7 +2670,7 @@ body.bt-homevfive .bt-main {
 }
 
 .tg-postfullslider .bt-slidercontent {
-    color: #fff;
+    color: #000;
     width: 610px;
 }
 
@@ -2725,7 +2725,7 @@ body.bt-homevfive .bt-main {
     line-height: 36px;
     position: absolute;
     text-align: center;
-    color: #fff !important;
+    color: #000 !important;
     text-transform: uppercase;
     border-radius: 5px 5px 0 0;
     -webkit-transform: rotate(-90deg);
@@ -2742,7 +2742,7 @@ body.bt-hidethumbnail .bt-togglethumbnails {
 .tg-bannerfullwidthslidecount {
     z-index: 3;
     left: 40px;
-    color: #fff;
+    color: #000;
     bottom: 65px;
     width: 130px;
     font-size: 15px;
@@ -2757,7 +2757,7 @@ body.bt-hidethumbnail .bt-togglethumbnails {
     width: 60%;
     height: 1px;
     content: '';
-    background: #fff;
+    background: #000;
     position: absolute;
 }
 
@@ -2950,7 +2950,7 @@ body.bt-homevseven .bt-wrapper {
 
 .bt-menulist>li>span,
 .bt-menulist>li>a {
-    color: #fff;
+    color: #000;
     line-height: inherit;
     display: inline-block;
     vertical-align: bottom;
@@ -2976,7 +2976,7 @@ body.bt-homevseven .bt-wrapper {
 }
 
 .bt-headervseven .bt-socialicons li a {
-    color: #fff;
+    color: #000;
 }
 
 .bt-headervseven .bt-socialicons li a i {
@@ -2985,7 +2985,7 @@ body.bt-homevseven .bt-wrapper {
 
 .bt-headervseven .bt-copyright {
     width: 100%;
-    color: #fff;
+    color: #000;
 }
 
 .bt-homeslidervseven {
@@ -3015,7 +3015,7 @@ body.bt-homevseven .bt-wrapper {
 }
 
 .bt-homeslidervseven h2 {
-    color: #fff;
+    color: #000;
     font-size: 13px;
     font-weight: 300;
     margin: 15px 0 0;
@@ -3148,7 +3148,7 @@ body.bt-homevseven .bt-main {
 .tg-btnnext {
     top: 50%;
     z-index: 2;
-    color: #fff;
+    color: #000;
     width: 50px;
     height: 50px;
     display: block;
@@ -3159,7 +3159,7 @@ body.bt-homevseven .bt-main {
     text-align: center;
     position: absolute;
     margin: -25px 0 0 0;
-    border: 1px solid #fff;
+    border: 1px solid #000;
 }
 
 .tg-btnprev {
@@ -3225,7 +3225,7 @@ body.bt-homevseven .bt-main {
 }
 
 .bt-404content {
-    color: #fff;
+    color: #000;
     width: 100%;
     float: left;
     padding: 180px 0;
@@ -3244,7 +3244,7 @@ body.bt-homevseven .bt-main {
 }
 
 .bt-404content h1 {
-    color: #fff;
+    color: #000;
     clear: both;
     margin: 0 0 60px;
     font-size: 64px;
@@ -3253,7 +3253,7 @@ body.bt-homevseven .bt-main {
 }
 
 .bt-404content h2 {
-    color: #fff;
+    color: #000;
     margin: 0 0 60px;
     font-size: 24px;
     font-weight: 300;
@@ -3289,7 +3289,7 @@ body.bt-homevseven .bt-main {
 }
 
 .bt-headerinnerpage .bt-navigationarea {
-    color: #fff;
+    color: #000;
     width: auto;
     float: right;
     padding: 9px 0;
@@ -3325,7 +3325,7 @@ body.bt-homevseven .bt-main {
 }
 
 .bt-headerinnerpage .bt-navigationarea>ul>li>a {
-    color: #fff;
+    color: #000;
     padding: 0 7px;
     position: relative;
 }
@@ -3338,7 +3338,7 @@ body.bt-homevseven .bt-main {
     width: 0;
     height: 1px;
     content: '';
-    background: #fff;
+    background: #000;
     position: absolute;
 }
 
@@ -3372,7 +3372,7 @@ body.bt-homevseven .bt-main {
     opacity: 0;
     width: 235px;
     font-weight: 300;
-    background: #fff;
+    background: #000;
     visibility: hidden;
     position: absolute;
     border-radius: 5px;
@@ -3404,7 +3404,7 @@ body.bt-homevseven .bt-main {
 .bt-headerinnerpage ul li.bt-hasdropdown .bt-submenu li.bt-active a,
 .bt-headerinnerpage ul li.bt-hasdropdown .bt-submenu li a:hover {
     background: #000;
-    color: #fff !important;
+    color: #000 !important;
 }
 
 .bt-innerpagebannerv3 {
@@ -3412,7 +3412,7 @@ body.bt-homevseven .bt-main {
 }
 
 .bt-innerpagebanner {
-    color: #fff;
+    color: #000;
     width: 100%;
     float: left;
     height: 100%;
@@ -3454,7 +3454,7 @@ body.bt-homevseven .bt-main {
 
 .bt-innerpagebanner h1 {
     margin: 0;
-    color: #fff;
+    color: #000;
     font-size: 64px;
     font-weight: bold;
     line-height: 48px;
@@ -3464,7 +3464,7 @@ body.bt-homevseven .bt-main {
 .bt-btnscroll {
     left: 50%;
     z-index: 3;
-    color: #fff;
+    color: #000;
     bottom: 150px;
     font-size: 10px;
     line-height: 10px;
@@ -3475,7 +3475,7 @@ body.bt-homevseven .bt-main {
 
 .bt-btnscroll:focus,
 .bt-btnscroll:hover {
-    color: #fff;
+    color: #000;
 }
 
 .bt-btnscroll:before {
@@ -3484,7 +3484,7 @@ body.bt-homevseven .bt-main {
     content: '';
     width: 1px;
     height: 50px;
-    background: #fff;
+    background: #000;
     position: absolute;
 }
 
@@ -4231,14 +4231,14 @@ body.bt-homevseven .bt-main {
     bottom: -110px;
     z-index: 2;
     width: 100%;
-    color: #fff;
+    color: #000;
     padding: 20px;
     position: absolute;
 }
 
 .bt-post figure figcaption .bt-posttitle h3,
 .bt-post figure figcaption .bt-postmatadata {
-    color: #fff;
+    color: #000;
 }
 
 .bt-post figure figcaption .bt-postmatadata li,
@@ -4251,7 +4251,7 @@ body.bt-homevseven .bt-main {
 }
 
 .bt-post figure figcaption .bt-postmatadata li a {
-    color: #fff;
+    color: #000;
 }
 
 .bt-post figure figcaption .bt-postcontent .bt-postmatadata li span a {
@@ -4261,7 +4261,7 @@ body.bt-homevseven .bt-main {
 .bt-post figure figcaption .bt-postcontent a,
 .bt-post figure figcaption .bt-postcontent a:hover,
 .bt-post figure figcaption .bt-postcontent a:focus {
-    color: #fff;
+    color: #000;
 }
 
 .bt-post figure figcaption .bt-postcontent .bt-postmatadata {
@@ -4322,7 +4322,7 @@ body.bt-homevseven .bt-main {
 .bt-downloadcount {
     top: 0;
     left: 0;
-    color: #fff;
+    color: #000;
     padding: 0 10px;
     font-size: 13px;
     font-weight: 300;
@@ -4346,7 +4346,7 @@ body.bt-homevseven .bt-main {
 
 .bt-masonrygallerygrid.bt-album figcaption .bt-shareandlikes {
     float: right;
-    color: #fff;
+    color: #000;
     padding: 15px;
 }
 
@@ -4364,12 +4364,12 @@ body.bt-homevseven .bt-main {
 
 .bt-btnviewimgdownload {
     left: 51%;
-    background: #fff url(images/icons/icon-06.png) no-repeat 50% 50%;
+    background: #000 url(images/icons/icon-06.png) no-repeat 50% 50%;
 }
 
 .bt-btnviewfreeimg {
     right: 51%;
-    background: #fff url(images/icons/icon-07.png) no-repeat 50% 50%;
+    background: #000 url(images/icons/icon-07.png) no-repeat 50% 50%;
 }
 
 .bt-photogallery.bt-filter-masonry .bt-album figure:hover img {
@@ -4556,7 +4556,7 @@ body.bt-homevseven .bt-main {
     content: '';
     height: 3px;
     width: 130px;
-    background: #fff;
+    background: #000;
     position: absolute;
     margin: 0 0 0 -65px;
 }
@@ -4641,7 +4641,7 @@ body.bt-homevseven .bt-main {
 .bt-categories li+li:before {
     top: 0;
     left: 0;
-    color: #fff;
+    color: #000;
     content: '/';
     position: absolute;
     font-size: inherit;
@@ -4649,7 +4649,7 @@ body.bt-homevseven .bt-main {
 }
 
 .bt-categories li a {
-    color: #fff;
+    color: #000;
     display: block;
 }
 
@@ -4740,7 +4740,7 @@ body.bt-homevseven .bt-main {
     bottom: 0;
     z-index: 2;
     width: 100%;
-    color: #fff;
+    color: #000;
     padding: 30px;
     position: absolute;
 }
@@ -4759,12 +4759,12 @@ body.bt-homevseven .bt-main {
 }
 
 .bt-featuredimg .bt-postmatadata li a {
-    color: #fff;
+    color: #000;
 }
 
 .bt-featuredimg .bt-postmatadata li time {
     line-height: 30px;
-    color: #fff;
+    color: #000;
 }
 
 .bt-featuredimg img {
@@ -5207,7 +5207,7 @@ body.bt-homevseven .bt-main {
 }
 
 .bt-formcontactus .bt-btn:hover {
-    color: #fff;
+    color: #000;
     background: #000;
 }
 
@@ -5320,7 +5320,7 @@ body.bt-homevseven .bt-main {
     width: 700px;
     height: 600px;
     display: none;
-    background: #fff;
+    background: #000;
     font-size: 20px;
     font-weight: 300;
     line-height: 20px;
@@ -5336,7 +5336,7 @@ body.bt-homevseven .bt-main {
     position: absolute;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-right: 10px solid #fff;
+    border-right: 10px solid #000;
 }
 
 .bt-contactusvthree .bt-contactinfo h2 {
@@ -5378,7 +5378,7 @@ body.bt-homevseven .bt-main {
     height: 100%;
     z-index: 10000;
     position: fixed;
-    background: #fff;
+    background: #000;
 }
 
 .bt-preloadericon {
@@ -5457,7 +5457,7 @@ body.bt-homevseven .bt-main {
 
 .cbp-l-loadMore-button .cbp-l-loadMore-link:hover,
 .cbp-l-loadMore-button .cbp-l-loadMore-button-link:hover {
-    color: #fff;
+    color: #000;
 }
 
 .cbp-l-loadMore-button .cbp-l-loadMore-link:before,
@@ -5509,7 +5509,7 @@ body.bt-homevseven .bt-main {
 
 .cbp-l-loadMore-button .cbp-l-loadMore-link:hover>span,
 .cbp-l-loadMore-button .cbp-l-loadMore-button-link:hover>span {
-    color: #fff;
+    color: #000;
 }
 
 .cbp-l-loadMore-button .cbp-l-loadMore-link:hover>span:before,
@@ -5532,7 +5532,7 @@ body.bt-homevseven .bt-main {
 
 .mk-series::before {
     content: 'Mk Series';
-    color: white;
+    color: black;
     font-size: 9rem;
     position: absolute;
     /* left: 0; */
@@ -5545,7 +5545,7 @@ body.bt-homevseven .bt-main {
 
 .letawin::before {
     content: 'Letawin A2 Series';
-    color: white;
+    color: black;
     font-size: 7rem;
     position: absolute;
     /* left: 0; */
@@ -5558,7 +5558,7 @@ body.bt-homevseven .bt-main {
 
 .series::before {
     content: 'PT-E8XX Series';
-    color: white;
+    color: black;
     font-size: 8rem;
     position: absolute;
     /* left: 0; */
@@ -5576,7 +5576,7 @@ img.slider1 {
 .col-md-6.left-title::before {
     content: 'P';
     font-size: 67rem;
-    color: #ffffff;
+    color: #000000;
     opacity: 0.2;
     position: absolute;
     font-weight: 500;
@@ -5586,7 +5586,7 @@ img.slider1 {
 }
 
 span.logo {
-    color: white;
+    color: black;
     font-size: 35px;
     font-weight: 700;
     padding: 15px;
@@ -5594,7 +5594,7 @@ span.logo {
 
 @media screen and (max-width: 992px) {
     .bt-homeslider {
-        color: #fff;
+        color: #000;
         width: 100%;
         float: left;
         height: 100%;
@@ -5632,7 +5632,7 @@ span.logo {
     .col-md-6.left-title::before {
         content: 'P';
         font-size: 30rem;
-        color: #ffffff;
+        color: #000000;
         opacity: 0.2;
         position: absolute;
         font-weight: 500;
