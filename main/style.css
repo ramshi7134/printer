@@ -38,7 +38,7 @@ body {
 
 body {
     color: #808080;
-    background: #000;
+    background: #fff;
     overflow-x: hidden !important;
     overflow-y: visible !important;
     font: 400 18px/28px 'Montserrat', Arial, Helvetica, sans-serif;
@@ -174,7 +174,7 @@ input[type="color"],
     outline: none;
     height: 40px;
     color: #7f7f7f;
-    background: #000;
+    /* background: #000; */
     border-radius: 0;
     box-shadow: none;
     font-size: 14px;
@@ -873,7 +873,7 @@ address {
 .bt-nav .bt-btntogglemenu {
     top: 30px;
     right: 30px;
-    color: #000;
+    color: #fff;
     width: 24px;
     display: block;
     font-size: 24px;
@@ -923,7 +923,7 @@ address {
 .bt-menu>li>span {
     top: 0;
     left: 0;
-    color: #000;
+    color: #fff;
     font-size: 13px;
     font-weight: 300;
     line-height: 28px;
@@ -931,7 +931,7 @@ address {
 }
 
 .bt-menu>li>a {
-    color: #000;
+    color: #fff;
     display: block;
     padding: 0 0 0 60px;
     position: relative;
@@ -943,7 +943,7 @@ address {
     width: 50px;
     height: 1px;
     content: '';
-    background: #000;
+    background: #fff;
     position: absolute;
 }
 
@@ -2206,7 +2206,7 @@ body.bt-homevfour .bt-homeslider {
 
 .bt-headervfour {
     padding: 30px 0;
-    position: fixed;
+    /* position: fixed; */
 }
 
 .bt-headervfour .bt-navigationarea {
