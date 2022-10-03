@@ -9,12 +9,10 @@
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="assets/animate.css/animate.min.css" rel="stylesheet" type="text/css">
     <link href="assets/fontawesome/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="assets/slick/slick.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&amp;display=swap" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet" type="text/css">
     <link href="assets/css/theme.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="main/css/responsive.css" />
-    <link rel="stylesheet" href="main/css/slick.css" />
     <link rel="stylesheet" href="main/css/transitions.css" />
     <link rel="stylesheet" href="main/style.css" />
 
@@ -41,6 +39,57 @@
     <link rel="preload" as="image" href='https://drive.google.com/uc?id=1i1VvCV1D00qLJFBjKqF_D837dnav6lLR'>
     <link rel="preload" as="image" href='https://drive.google.com/uc?id=1D7PBddCxxb6aRk43maJ_BXgQD-PRS6R7'>
 
+    <!--slick slider-->
+    <link rel="stylesheet" type="text/css" href="main/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="main/slick/slick-theme.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            $('.slider-for').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                fade: true,
+                asNavFor: '.slider-nav'
+            });
+            $('.slider-nav').slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                asNavFor: '.slider-for',
+                dots: false,
+                centerMode: false,
+                focusOnSelect: true,
+                responsive: [{
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 1,
+                            infinite: false,
+                            dots: false
+                        }
+                    }, {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 1,
+                            infinite: false,
+                        }
+                    }, {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 1,
+                            infinite: false,
+                        }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+            });
+        });
+    </script>
 </head>
 
 <body class="body">
@@ -179,7 +228,7 @@
             </div>
         </div>
     </section>
-    <section class="bg-light-green white-curve-before curve-before-0 white-curve-after curve-after-40 section-solid">
+    <section class="bg-light-green white-curve-before curve-before-0 white-curve-after curve-after-40">
 
         <div class="container">
             <div class="sidebar-container">
@@ -188,10 +237,22 @@
                         <div class="entity">
                             <div class="grid col-auto px-0 row">
                                 <div class="col-md-6">
-                                    <div class="position-relative entity-image">
+                                    <div class="slider-for">
+                                        <div class="product1"><img src="assets/images/content/720x540/4.png" width="250px" height="auto" alt=""></div>
+                                        <div class="product1"><img src="assets/images/content/720x540/6.png" width="250px" height="auto" alt=""></div>
+                                        <div class="product1"><img src="assets/images/content/720x540/7.png" width="250px" height="auto" alt=""></div>
+                                        <div class="product1"><img src="assets/images/content/720x540/4.png" width="250px" height="auto" alt=""></div>
+                                    </div>
+                                    <div class="slider-nav">
+                                        <div class="product2"><img src="assets/images/content/720x540/4.png" height="auto" alt=""></div>
+                                        <div class="product2"><img src="assets/images/content/720x540/6.png" alt=""></div>
+                                        <div class="product2"><img src="assets/images/content/720x540/7.png" alt=""></div>
+                                        <div class="product2"><img src="assets/images/content/720x540/4.png" alt=""></div>
+                                    </div>
+                                    <!-- <div class="position-relative entity-image">
                                         <img class="w-100" src="assets/images/content/720x540/4.png" alt="">
 
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="col">
                                     <h2 class="mb-2 entity-title">Printer Name</h2>
@@ -216,6 +277,21 @@
                                         <span class="entity-price-current">$3.99</span>
                                         <span class="entity-price-old">$6.00</span>
                                     </div>
+                                    <div>
+                                        <h4 class="color-choose">Choose color</h4>
+                                    </div>
+                                    <div class="color-area">
+
+                                        <label class="color-checkbox">
+                                        <input type="checkbox" >
+                                        <span class="checkmark" style="background-color: black"></span>
+                                      </label>
+                                        <label class="color-checkbox">
+                                        <input type="checkbox" >
+                                        <span class="checkmark" style="background-color: grey"></span>
+                                      </label>
+                                    </div>
+
                                     <div class="entity-action-btns">
                                         <form autocomplete="off">
                                             <div class="row grid">
@@ -578,6 +654,8 @@
             </div>
         </div>
     </section>
+
+
     <div class="cart-sidebar collapse" data-block="cart" data-show-block-class="animation-scale-top-right" data-hide-block-class="animation-unscale-top-right">
         <a class="close-link" href="#" data-close-block="true">
             <i class="fas fa-times"></i>
@@ -743,7 +821,7 @@
             </div>
         </div>
         <div class="footer-copy">
-            <div class="container">Copyright &copy; 2021 <strong>amigosthemes</strong>. All rights reserved. </div>
+            <div class="container">Copyright &copy; 2022 <strong>Cabcon</strong>. All rights reserved. </div>
         </div>
     </footer>
     <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
@@ -773,6 +851,9 @@
     <script src="main/js/appear.js"></script>
     <script src="main/js/gmap3.js"></script>
     <script src="main/js/themefunction.js"></script>
+
+    <!--slick slider js-->
+    <script type="text/javascript" src="main/slick/slick.min.js"></script>
 </body>
 
 </html>
